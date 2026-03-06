@@ -1,0 +1,37 @@
+# 機密情報・認証情報
+.env
+.env.*
+*.key
+*.pem
+credentials/
+*credentials*.json
+google-oauth-credentials.json
+token.json
+
+# APIキー・トークンを含むファイル
+*api_key*
+*secret*
+*token*
+
+# 個人情報・機密ドキュメント
+00_context/memories/
+02_finance/
+
+# macOSシステムファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# エディタ設定
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+tmp/
+temp/
